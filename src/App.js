@@ -1,10 +1,20 @@
 import React from 'react';
 import './App.css';
 import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (
-      <About/>
+      <div>
+        <About/>
+        <br/>
+        <hr/>
+        <br/>
+        <Skills/>
+        <br/>
+        <hr/>
+        <br/>
+      </div>
   );
   // return (
   //   <div className="App">

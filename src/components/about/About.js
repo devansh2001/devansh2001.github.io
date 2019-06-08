@@ -12,7 +12,7 @@ class About extends Component {
        <Container>
          <Row>
            <Col md={3}>
-             <Image src = '../resources/devansh.jpeg' roundedCircle/>
+             <Image src = '../../resources/devansh.jpeg' roundedCircle/>
            </Col>
            <Col md={9}>
              <h1>Devansh Jatin Ponda</h1>

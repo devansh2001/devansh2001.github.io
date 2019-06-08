@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
         <hr/>
         <br/>
         <Skills/>
+        <br/>
+        <hr/>
+        <br/>
+        <Projects/>
         <br/>
         <hr/>
         <br/>

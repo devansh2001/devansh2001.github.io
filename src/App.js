@@ -5,11 +5,13 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import MyNavbar from "./components/navbar/MyNavbar";
 import Experience from "./components/experience/Experience";
+import Home from './components/home/Home'
 
 function App() {
   return (
       <div>
         <MyNavbar/>
+        <Home/>
         <About/>
         <br/>
         <hr/>

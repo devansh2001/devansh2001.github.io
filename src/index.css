@@ -36,4 +36,64 @@ a {
 .my-deck {
     margin: 5px 10px 5px 10px;
     padding: 30px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#Home {
+    background: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat;
+    color: white;
+    height: 100vh;
+    /*width: 100%;*/
+    /*height: 500px;*/
+    /*padding-left: 300px;*/
+    /*box-sizing: border-box;*/
+    /*box-shadow: inset 500px 0 50px 10px #FFF;*/
+}
+
+#Skills, #About {
+    height: 100vh;
+}
+
+#About {
+    margin: 0 auto;
+}
+
+.name-intro {
+    text-align: center;
+    vertical-align: middle;
 }

@@ -6,7 +6,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 class Projects extends Component {
     render() {
         return (
-            <div id={'Projects'}>
+            <div id={'Projects'} className={'main'}>
               <h1>Projects</h1>
                 <CardDeck className={'my-deck'}>
                     <Card>

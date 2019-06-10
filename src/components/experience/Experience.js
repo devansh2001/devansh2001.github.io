@@ -4,7 +4,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 class Experience extends Component {
   render() {
     return (
-        <div id={'Experience'}>
+        <div id={'Experience'} className={'main'}>
           <h1>Work Experience</h1>
           <Timeline lineColor={'#ddd'}>
             <TimelineItem

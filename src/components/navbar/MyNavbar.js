@@ -6,7 +6,7 @@ class MyNavbar extends Component{
   render() {
     return (
         <div>
-          <Navbar  expand="lg" bg="dark" variant="dark">
+          <Navbar fixed={'top'} expand="lg" bg="dark" variant="dark">
             <Navbar.Brand>devansh.ponda</Navbar.Brand>
             <NavbarToggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">

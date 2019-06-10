@@ -8,7 +8,7 @@ import ContactOptions from "./ContactOptions";
 class About extends Component {
   render() {
     return (
-        <div id={'About'}>
+        <div id={'About'} className={'main'}>
          <Container>
            <Row>
              <Col md={3}>

@@ -4,9 +4,9 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 class Experience extends Component {
   render() {
     return (
-        <div id={'Experience'} className={'main'}>
+        <div id={'Experience'} className={'main my-work-exp'}>
           <h1>WORK EXPERIENCE</h1>
-          <Timeline lineColor={'#ddd'}>
+          <Timeline lineColor={'#ddd'} className={'my-timeline'}>
             <TimelineItem
                 key="001"
                 dateText="May 2019 – Present"
@@ -36,7 +36,6 @@ class Experience extends Component {
                 and hold office hours for additional support. I also work with my colleagues and
                 professors to develop, review, and publish periodic homework assignment for students.
               </p>
-
             </TimelineItem>
             <TimelineItem
                 key="003"

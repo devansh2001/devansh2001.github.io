@@ -86,11 +86,6 @@ h1 {
     color: white;
     height: 100vh;
     background-blend-mode: darken;
-    /*width: 100%;*/
-    /*height: 500px;*/
-    /*padding-left: 300px;*/
-    /*box-sizing: border-box;*/
-    /*box-shadow: inset 500px 0 50px 10px #FFF;*/
 }
 
 #Skills, #About {
@@ -100,8 +95,16 @@ h1 {
 #About {
     margin: 0 auto;
     width: 100%;
+    background-color: #7FB800;
 }
 
+#Skills {
+    background-color: #00A6ED;
+}
+
+#Projects {
+    background-color: #FFB400;
+}
 .name-intro {
     margin: 0;
     position: absolute;
@@ -114,4 +117,12 @@ h1 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/*.my-work-exp:hover {*/
+/*    background: url("http://i.dailymail.co.uk/i/pix/2015/09/01/18/2BE1E88B00000578-3218613-image-m-5_1441127035222.jpg") no-repeat;*/
+/*}*/
+
+#Experience {
+    background-color: #FEFEFE;
 }

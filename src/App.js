@@ -14,10 +14,8 @@ function App() {
         <MyNavbar/>
         <Home/>
         <About/>
-        <hr/>
         <Skills/>
         <Projects/>
-        <hr/>
         <Experience/>
       </div>
   );

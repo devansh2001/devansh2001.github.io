@@ -28,3 +28,12 @@ a {
 .project-button {
     margin-right: 10px;
 }
+
+.about {
+    margin-top: 60px
+}
+
+.my-deck {
+    margin: 5px 10px 5px 10px;
+    padding: 30px;
+}

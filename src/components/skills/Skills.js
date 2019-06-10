@@ -6,7 +6,8 @@ import Col from "react-bootstrap/Col";
 class Skills extends Component {
   render() {
     return (
-        <div>
+        <div id={'Skills'}>
+          <h1>Skills</h1>
           <Container>
             <Row>
               <Col>

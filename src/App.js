@@ -3,22 +3,23 @@ import './App.css';
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
+import MyNavbar from "./components/navbar/MyNavbar";
+import Experience from "./components/experience/Experience";
 
 function App() {
   return (
       <div>
+        <MyNavbar/>
         <About/>
         <br/>
         <hr/>
         <br/>
         <Skills/>
-        <br/>
-        <hr/>
-        <br/>
         <Projects/>
         <br/>
         <hr/>
         <br/>
+        <Experience/>
       </div>
   );
   // return (

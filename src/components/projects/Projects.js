@@ -6,8 +6,9 @@ import CardDeck from 'react-bootstrap/CardDeck'
 class Projects extends Component {
     render() {
         return (
-            <div>
-                <CardDeck>
+            <div id={'Projects'}>
+              <h1>Projects</h1>
+                <CardDeck className={'my-deck'}>
                     <Card>
                         <Card.Img variant="top" src="https://www.teamdesk.net/blog/wp-content/uploads/2017/11/Inventory-Management-Online-Database-750x410.jpg" />
                         <Card.Body>
@@ -55,12 +56,10 @@ class Projects extends Component {
                         </Card.Body>
                     </Card>
                 </CardDeck>
-                <br/>
-                <hr/>
-                <br/>
-                <CardDeck>
+
+                <CardDeck className={'my-deck'}>
                     <Card>
-                        <Card.Img variant="top" src="https://www.clipart1001.com/wp-content/uploads/2019/02/Phone-Book-Clipart-Book-2810.jpg"/>
+                        <Card.Img variant="top" src="https://www.sccpre.cat/mypng/detail/130-1306657_telephone-directory-icon-telephone-directory-phone-book-icon.png"/>
                         <Card.Body>
                             <Card.Title>Telephone Directory System</Card.Title>
                             <Card.Text>
@@ -75,7 +74,7 @@ class Projects extends Component {
 
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/79853/Library.png" />
+                        <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/color-books-line-white-background-57455508.jpg" />
                         <Card.Body>
                             <Card.Title>Library Management System</Card.Title>
                             <Card.Text>

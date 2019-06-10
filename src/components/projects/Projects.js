@@ -7,7 +7,7 @@ class Projects extends Component {
     render() {
         return (
             <div id={'Projects'} className={'main'}>
-              <h1>Projects</h1>
+              <h1>PROJECTS</h1>
                 <CardDeck className={'my-deck'}>
                     <Card>
                         <Card.Img variant="top" src="https://www.teamdesk.net/blog/wp-content/uploads/2017/11/Inventory-Management-Online-Database-750x410.jpg" />
@@ -23,7 +23,6 @@ class Projects extends Component {
                                 Access Project
                             </Button>
                         </Card.Body>
-
                     </Card>
                     <Card>
                         <Card.Img variant="top" src="https://cdn.lynda.com/course/697705/697705-636924138322611315-16x9.jpg" />
@@ -52,7 +51,6 @@ class Projects extends Component {
                                     variant="primary" className={'project-button'}>
                                 Access Project
                             </Button>
-
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -71,7 +69,6 @@ class Projects extends Component {
                                 Access Project
                             </Button>
                         </Card.Body>
-
                     </Card>
                     <Card>
                         <Card.Img variant="top" src="https://thumbs.dreamstime.com/b/color-books-line-white-background-57455508.jpg" />
@@ -101,7 +98,6 @@ class Projects extends Component {
                                     variant="primary" className={'project-button'}>
                                 Access Project
                             </Button>
-
                         </Card.Body>
                     </Card>
                 </CardDeck>

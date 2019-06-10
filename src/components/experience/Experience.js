@@ -5,7 +5,7 @@ class Experience extends Component {
   render() {
     return (
         <div id={'Experience'} className={'main'}>
-          <h1>Work Experience</h1>
+          <h1>WORK EXPERIENCE</h1>
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
                 key="001"
@@ -15,13 +15,11 @@ class Experience extends Component {
               <h3>NCR Corporation</h3>
               <h4>Software Engineering Intern -- Cloud Platform</h4>
               <p>
-                Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                est.
+                As a software engineering intern on the Cloud Platform team, my team and I
+                built an order monitoring tool that tracks the progress of all incoming orders
+                through the NCR system. We also developed a Kibana dashboard to visualize all
+                this information real-time for immediate understanding.
               </p>
-
             </TimelineItem>
             <TimelineItem
                 key="002"
@@ -31,11 +29,12 @@ class Experience extends Component {
               <h3>Teaching Assistant</h3>
               <h4>Introduction to Object-Oriented Programming</h4>
               <p>
-                Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                est.
+                'The best way to learn is to teach.' I am a Teaching Assistant for the
+                'Introduction to Object-Oriented Programming' class at Georgia Tech. We see
+                over 800 students every semester, but my team and I ensure that everyone gets
+                the support they need. I teach weekly recitations to a section of the students,
+                and hold office hours for additional support. I also work with my colleagues and
+                professors to develop, review, and publish periodic homework assignment for students.
               </p>
 
             </TimelineItem>

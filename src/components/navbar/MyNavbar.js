@@ -7,7 +7,7 @@ class MyNavbar extends Component{
     return (
         <div>
           <Navbar fixed={'top'} expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand>devansh.ponda</Navbar.Brand>
+            <Navbar.Brand>devanshponda</Navbar.Brand>
             <NavbarToggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className={'ml-auto'}>

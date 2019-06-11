@@ -22,7 +22,10 @@ class Experience extends Component {
   };
 
   addStyle = (link) => {
-    document.getElementById('fancy-bg').style.background = "url(" + link + ")";
+    document.getElementById('fancy-bg').style.background = "url(" + link + ") no-repeat";
+    document.getElementById('fancy-bg').style.borderRadius = '25px';
+    document.getElementById('fancy-bg').style.marginTop = '50px';
+    document.getElementById('fancy-bg').style.marginBottom = '50px';
   };
 
   mouseLeave = () => {
@@ -36,7 +39,7 @@ class Experience extends Component {
           <h1>WORK EXPERIENCE</h1>
           <Container>
             <Row>
-              <Col>
+              <Col xs={6}>
                 <Timeline lineColor={'#ddd'} className={'my-timeline'}>
                   <TimelineItem
                       key="001"

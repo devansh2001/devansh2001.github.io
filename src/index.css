@@ -17,6 +17,7 @@ code {
 }
 .main {
     padding-top: 55px;
+    background-color: #F4F4F4;
 }
 a {
     color: inherit;
@@ -37,7 +38,6 @@ a {
 
 h1 {
     text-align: center;
-
 }
 
 .my-deck {
@@ -95,15 +95,15 @@ h1 {
 #About {
     margin: 0 auto;
     width: 100%;
-    background-color: #7FB800;
+    background-color: #F4F4F4;
 }
 
 #Skills {
-    background-color: #00A6ED;
+    background-color: #FEFEFE;
 }
 
 #Projects {
-    background-color: #FFB400;
+    background-color: #F4F4F4;
 }
 .name-intro {
     margin: 0;
@@ -125,4 +125,8 @@ h1 {
 
 #Experience {
     background-color: #FEFEFE;
+}
+
+.para-exp-data {
+    text-align: justify;
 }

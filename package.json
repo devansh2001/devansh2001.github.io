@@ -7,7 +7,7 @@
     "react-bootstrap": "latest",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.0.1",
     "vertical-timeline-component-for-react": "^1.0.6"
   },
   "scripts": {

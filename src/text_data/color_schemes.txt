@@ -10,3 +10,9 @@ Theme 2:
 - 00A6ED
 - 7FB800
 - 0D2C54
+
+Theme 3:
+- 1fad9f
+- cd3131
+- ab1212
+- f6e4b5

@@ -38,6 +38,7 @@ a {
 
 h1 {
     text-align: center;
+    color: #005691;
 }
 
 .my-deck {
@@ -95,7 +96,7 @@ h1 {
 #About {
     margin: 0 auto;
     width: 100%;
-    background-color: #F4F4F4;
+    background-color: #F2F2F2;
 }
 
 #Skills {
@@ -103,7 +104,7 @@ h1 {
 }
 
 #Projects {
-    background-color: #F4F4F4;
+    background-color: #F2F2F2;
 }
 .name-intro {
     margin: 0;

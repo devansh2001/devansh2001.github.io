@@ -83,7 +83,7 @@ h1 {
 }
 
 #Home {
-    background: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat;
+    background-color: #696969 /*#url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat */;
     color: white;
     height: 100vh;
     background-blend-mode: darken;

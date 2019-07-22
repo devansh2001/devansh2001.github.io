@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/devansh2001.github.io/static/css/main.9ec57c65.chunk.css",
+    "main.css": "/devansh2001.github.io/static/css/main.5b3c85e2.chunk.css",
     "main.js": "/devansh2001.github.io/static/js/main.8ec1d904.chunk.js",
     "main.js.map": "/devansh2001.github.io/static/js/main.8ec1d904.chunk.js.map",
     "runtime~main.js": "/devansh2001.github.io/static/js/runtime~main.8d4b6549.js",
@@ -9,9 +9,9 @@
     "static/js/2.595b31d4.chunk.js": "/devansh2001.github.io/static/js/2.595b31d4.chunk.js",
     "static/js/2.595b31d4.chunk.js.map": "/devansh2001.github.io/static/js/2.595b31d4.chunk.js.map",
     "index.html": "/devansh2001.github.io/index.html",
-    "precache-manifest.115359f4b603c090fb4fb8607d125949.js": "/devansh2001.github.io/precache-manifest.115359f4b603c090fb4fb8607d125949.js",
+    "precache-manifest.8d49268a4dddec1723d7fd3d4800b842.js": "/devansh2001.github.io/precache-manifest.8d49268a4dddec1723d7fd3d4800b842.js",
     "service-worker.js": "/devansh2001.github.io/service-worker.js",
     "static/css/2.0eaf8e31.chunk.css.map": "/devansh2001.github.io/static/css/2.0eaf8e31.chunk.css.map",
-    "static/css/main.9ec57c65.chunk.css.map": "/devansh2001.github.io/static/css/main.9ec57c65.chunk.css.map"
+    "static/css/main.5b3c85e2.chunk.css.map": "/devansh2001.github.io/static/css/main.5b3c85e2.chunk.css.map"
   }
 }

@@ -22,15 +22,16 @@ class Experience extends Component {
   };
 
   addStyle = (link) => {
-    document.getElementById('fancy-bg').style.background = "url(" + link + ") no-repeat";
-    document.getElementById('fancy-bg').style.borderRadius = '25px';
-    document.getElementById('fancy-bg').style.marginTop = '50px';
-    document.getElementById('fancy-bg').style.marginBottom = '50px';
+    document.getElementById('Experience').style.background = "url(" + link + ")";
+    // document.getElementById('fancy-bg').style.background = "url(" + link + ") no-repeat";
+    // document.getElementById('fancy-bg').style.borderRadius = '25px';
+    // document.getElementById('fancy-bg').style.marginTop = '50px';
+    // document.getElementById('fancy-bg').style.marginBottom = '50px';
   };
 
   mouseLeave = () => {
     console.log('Left!');
-    document.getElementById('fancy-bg').style.background = '#FEFEFE'
+    document.getElementById('Experience').style.background = '#FEFEFE'
   };
 
   render() {

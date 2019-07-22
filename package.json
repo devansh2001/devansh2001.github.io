@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devansh2001.github.io/",
+  "homepage": "https://devansh2001.github.io/devansh2001.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

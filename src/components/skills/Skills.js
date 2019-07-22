@@ -3,11 +3,23 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
+import Box from './Box';
 
 class Skills extends Component {
   render() {
     return (
         <div id={'Skills'} className={'main'}>
+          <Row>
+            <Col xs='4'>
+              <Box data = {['Hi', 'Hello', 'Namaste']} />
+            </Col>
+            <Col xs='4'>
+              <Box data = {['Hi', 'Hello']} />
+            </Col>
+            <Col xs='4'>
+              <Box data = {['Hi', 'Hello', 'Namaste']} />
+            </Col>
+          </Row>
           <h1>SKILLS</h1>
           <Container>
             <Row>

@@ -9,6 +9,7 @@
     "react-bootstrap": "latest",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
+    "react-image-timeline": "^2.0.2",
     "react-scripts": "^3.0.1",
     "react-typing-effect": "^2.0.2",
     "vertical-timeline-component-for-react": "^1.0.6"

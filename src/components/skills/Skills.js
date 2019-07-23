@@ -8,66 +8,20 @@ import Box from './Box';
 class Skills extends Component {
   render() {
     return (
-        <div id={'Skills'} className={'main'}>
-          <Row>
-            <Col xs='4'>
-              <Box data = {['Hi', 'Hello', 'Namaste']} />
-            </Col>
-            <Col xs='4'>
-              <Box data = {['Hi', 'Hello']} />
-            </Col>
-            <Col xs='4'>
-              <Box data = {['Hi', 'Hello', 'Namaste']} />
-            </Col>
-          </Row>
+        <div id={'Skills'} className={'main skills'}>
           <h1>SKILLS</h1>
           <Container>
-            <Row>
-              <Col>
-                <h3>Languages</h3>
-                {/*<ListGroup variant="flush">*/}
-                {/*  <ListGroup.Item>Java</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>C++</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>Python</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>HTML</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>CSS</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>JavaScript (+ ReactJS)</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>Database Management  - MySQL, PostgresSQL, NoSQL</ListGroup.Item>*/}
-                {/*  <ListGroup.Item>LaTeX</ListGroup.Item>*/}
-                {/*</ListGroup>*/}
-                <ul>
-                  <li>Java</li>
-                  <li>C++</li>
-                  <li>Python</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript (+ ReactJS)</li>
-                  <li>Database Management - MySQL, PostgresSQL, NoSQL</li>
-                  <li>LaTeX</li>
-                </ul>
-              </Col>
-              <Col>
-                <h3>Technologies</h3>
-                <ul>
-                  <li>ElasticSearch</li>
-                  <li>Kibana</li>
-                  <li>Docker</li>
-                  <li>Kubernetes</li>
-                </ul>
-              </Col>
-              <Col>
-                <h3>Tools</h3>
-                <ul>
-                  <li>IntelliJ IDEA</li>
-                  <li>Sublime Text</li>
-                  <li>Android Studio</li>
-                  <li>Git/GitHub/GitLab</li>
-                  <li>WebStorm</li>
-                  <li>BitBucket</li>
-                  <li>Atlassian/Jira</li>
-                </ul>
-              </Col>
-            </Row>
+          <Row>
+            <Col sm='4'>
+              <Box data = {['Java', 'C++', 'Python', 'HTML', 'CSS', 'JavaScript (+ ReactJS)', 'Database Management - MySQL, PostgresSQL, NoSQL', 'LaTeX']} heading = {'Languages'} />
+            </Col>
+            <Col sm='4'>
+              <Box data = {['Elastic Search', 'Kibana' , 'Docker', 'Android Application Development']} heading = {'Technologies'} />
+            </Col>
+            <Col sm='4'>
+              <Box data = {['IntelliJ IDEA', 'Sublime Text', 'Android Studio', 'Git/GitHub/GitLab', 'BitBucket', 'Jira']}  heading = {'Tools'} />
+            </Col>
+          </Row>
           </Container>
         </div>
     );

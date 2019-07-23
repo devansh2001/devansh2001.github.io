@@ -1,21 +1,24 @@
 import React, {Component} from 'react'
+import { FaThumbsDown } from 'react-icons/fa';
 
 class Box extends Component {
     constructor(props) {
         super(props)
         this.state = {
             data: this.props.data,
-            elements: []
+            elements: [],
+            header: this.props.heading
         }
-        for (var element in this.state.data) {
-            this.state.elements.push(<li>{element}</li>)
+        console.log(props.data[0])
+        for (let i = 0; i < props.data.length; i++) {
+            this.state.elements.push(<li>{props.data[i]}</li>)
         }
     }
     
     render() {
         return (
             <div className='box'>
-                <h1>Now</h1>
+                <h2>{this.state.header}</h2>
                 <ul>{this.state.elements}</ul>
             </div>
         )

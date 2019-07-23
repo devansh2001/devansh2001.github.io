@@ -82,11 +82,26 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+    #Home {
+        background: url("./image.jpg") no-repeat;
+        /* background-color: black; */
+        background-size: contain;
+        height: 100vh;
+        background-blend-mode: darken
+
+    }
+}
+@media (min-width: 769px) {
 #Home {
-    background-color: #696969 /*#url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat */;
+    /* background: #url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat; */
+    /* background: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg"); */
+    background-image: url("./img2.png");
+    background-size: cover;
     color: white;
     height: 100vh;
     background-blend-mode: darken;
+}
 }
 
 #Skills, #About {

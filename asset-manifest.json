@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4accaa6.chunk.css",
-    "main.js": "/static/js/main.9fa01638.chunk.js",
-    "main.js.map": "/static/js/main.9fa01638.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.24e9a224.chunk.css": "/static/css/2.24e9a224.chunk.css",
-    "static/js/2.be9fdb01.chunk.js": "/static/js/2.be9fdb01.chunk.js",
-    "static/js/2.be9fdb01.chunk.js.map": "/static/js/2.be9fdb01.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.729c11d675e7fc5e1e55762ffa90ee54.js": "/precache-manifest.729c11d675e7fc5e1e55762ffa90ee54.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.24e9a224.chunk.css.map": "/static/css/2.24e9a224.chunk.css.map",
-    "static/css/main.b4accaa6.chunk.css.map": "/static/css/main.b4accaa6.chunk.css.map",
-    "static/media/index.css": "/static/media/img2.175d73e2.png",
-    "static/media/research-image.jpg": "/static/media/research-image.a6fd3481.jpg",
-    "static/media/ta-img.jpg": "/static/media/ta-img.ba2631c3.jpg"
+    "main.css": "/build/static/css/main.990df040.chunk.css",
+    "main.js": "/build/static/js/main.537c14cc.chunk.js",
+    "main.js.map": "/build/static/js/main.537c14cc.chunk.js.map",
+    "runtime~main.js": "/build/static/js/runtime~main.9df7376b.js",
+    "runtime~main.js.map": "/build/static/js/runtime~main.9df7376b.js.map",
+    "static/css/2.24e9a224.chunk.css": "/build/static/css/2.24e9a224.chunk.css",
+    "static/js/2.be9fdb01.chunk.js": "/build/static/js/2.be9fdb01.chunk.js",
+    "static/js/2.be9fdb01.chunk.js.map": "/build/static/js/2.be9fdb01.chunk.js.map",
+    "index.html": "/build/index.html",
+    "precache-manifest.ecf8e97cc48bd2928620cd0ee063c9b0.js": "/build/precache-manifest.ecf8e97cc48bd2928620cd0ee063c9b0.js",
+    "service-worker.js": "/build/service-worker.js",
+    "static/css/2.24e9a224.chunk.css.map": "/build/static/css/2.24e9a224.chunk.css.map",
+    "static/css/main.990df040.chunk.css.map": "/build/static/css/main.990df040.chunk.css.map",
+    "static/media/index.css": "/build/static/media/img2.175d73e2.png",
+    "static/media/research-image.jpg": "/build/static/media/research-image.a6fd3481.jpg",
+    "static/media/ta-img.jpg": "/build/static/media/ta-img.ba2631c3.jpg"
   }
 }

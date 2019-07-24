@@ -6,6 +6,7 @@ import Projects from "./components/projects/Projects";
 import MyNavbar from "./components/navbar/MyNavbar";
 import Experience from "./components/experience/Experience";
 import Home from './components/home/Home'
+import ExperienceNew from './components/experience/ExperienceNew';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Skills/>
         <Projects/>
         <Experience/>
+        <ExperienceNew/>
       </div>
   );
 }

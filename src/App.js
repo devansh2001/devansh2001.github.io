@@ -14,10 +14,9 @@ function App() {
         <MyNavbar/>
         <Home/>
         <About/>
+        <ExperienceNew/>
         <Skills/>
         <Projects/>
-        <Experience/>
-        <ExperienceNew/>
       </div>
   );
 }

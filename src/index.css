@@ -93,25 +93,37 @@ h1 {
     }
 }
 @media (min-width: 769px) {
-#Home {
-    /* background: #url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat; */
-    /* background: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg"); */
-    background-image: url("./img2.png");
-    background-size: cover;
-    color: white;
-    height: 100vh;
-    background-blend-mode: darken;
-}
+    #Home {
+        /* background: #url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg") no-repeat; */
+        /* background: url("https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920.jpg"); */
+        background-image: url("./img2.png");
+        background-size: cover;
+        color: white;
+        height: 100vh;
+        background-blend-mode: darken;
+    }
 }
 
-#Skills, #About {
+@media (min-width: 769px) {
+    #Skills {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    #Skills {
+        height: auto;
+    }
+}
+
+#About {
     height: 100vh;
 }
 
 #About {
     margin: 0 auto;
     width: 100%;
-    background-color: #F2F2F2;
+    background-color: #fefefe;
 }
 
 #Skills {
@@ -150,9 +162,17 @@ h1 {
 /*}*/
 
 #Experience {
-    background-color: #FEFEFE;
+    background-color: #F2F2F2;
 }
 
 .para-exp-data {
     text-align: justify;
+}
+
+.skills-header {
+    text-align: center
+}
+
+.skills {
+
 }

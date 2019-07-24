@@ -135,7 +135,6 @@ h1 {
 }
 .name-intro {
     margin: 0;
-    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -144,7 +143,6 @@ h1 {
 
 .name-intro-header {
     margin: 0;
-    font-size: 50px;
     position: absolute;
     top: 40%;
     left: 50%;

@@ -23,12 +23,13 @@ class ExperienceNew extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
                     <br/>
                     <Image src = {require('../../image.jpg')} fluid />
-                    <p>
+                    <br/>
+                    <p/>
                         As a software engineering intern on the Cloud Platform team, my team and I
                       built an order monitoring tool that tracks the progress of all incoming orders
                       through the NCR system. We also developed a Kibana dashboard to visualize all
                       this information real-time for immediate understanding.
-                    </p>
+
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -40,16 +41,37 @@ class ExperienceNew extends Component {
                     <h3>College of Computing at Georgia Tech</h3>
                     <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
                     <br/>
-                    <Image src = {require('../../image.jpg')} fluid />
-                    <p>
+                    <Image src = {require('../../ta-img.jpg')} fluid />
+                    <br/>
+                    <p/>
                     'The best way to learn is to teach.' I am a Teaching Assistant for the 
-                    'Introduction to Object-Oriented Programming' class at Georgia Tech. We see 
+                    <b> 'Introduction to Object-Oriented Programming' </b>class at Georgia Tech. <br/> We see 
                     over 800 students every semester, but my team and I ensure that everyone gets 
                     the support they need. I teach weekly recitations to a section of the students,
                     and hold office hours for additional support. I also work with my colleagues 
                     and professors to develop, review, and publish periodic homework assignment 
                     for students.
-                    </p>
+
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="November 2018 - Present"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    icon={<SchoolIcon />}
+                >
+                    <h3 className="vertical-timeline-element-title">Undergraduate Researcher</h3>
+                    <h3 className="vertical-timeline-element-subtitle">Georgia Tech School of Interactive Computing</h3>
+                    <h4>Atlanta, GA</h4>
+                    <br/>
+                    <Image src = {require('../../research-image.jpg')} fluid/>
+                    <br/>
+                    <p/>
+                    I am a part of a team of researchers under Dr. Gregory Abowd, and Dr. Thad Starner, working to create a
+                    self-powered device that can recognize hand gestures using only a 4x4 array of photodiodes, and execute
+                    actions based on those gestures.
+                    I led the software part of the project, and used scikit-learn to train a Machine Learning algorithm to recognize
+                    left-swipe, right-swipe, pinch-in and pinch-out gestures. The algorithm was trained on controlled data that I produced.
+                    
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -62,25 +84,14 @@ class ExperienceNew extends Component {
                     <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
                     <br/>
                     <Image src = {require('../../image.jpg')} fluid />
-                    <p>
-                    Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+                    <br/>
+                    <p/>
+                        As an information technology intern, I worked on IT support teams.
+                        Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
                         exercitation. Veniam velit adipisicing anim excepteur nostrud magna
                         nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
                         reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
                         est.
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="November 2012"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    icon={<SchoolIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                    <p>
-                    Creative Direction, User Experience, Visual Design
-                    </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
             </div>

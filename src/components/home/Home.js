@@ -6,7 +6,7 @@ class Home extends Component {
     return (
         <div id={'Home'} className={'main'}>
           {/*<h2 className={'name-intro'}>Hi! I am <strong>{this.state.currComponent}</strong></h2>*/}
-          <h2 className={'name-intro-header'} style={{color: 'white'}}>Hi! I am </h2>
+          <h2 className={'name-intro-header'} style={{color: 'white'}}>Hi! I am</h2>
           <h2 style={{fontFamily: 'monospace', color: 'white'}} className={'name-intro'}><ReactTypingEffect
                              speed={20}
                              eraseDelay={1000}

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.990df040.chunk.css",
-    "main.js": "/build/static/js/main.537c14cc.chunk.js",
-    "main.js.map": "/build/static/js/main.537c14cc.chunk.js.map",
-    "runtime~main.js": "/build/static/js/runtime~main.9df7376b.js",
-    "runtime~main.js.map": "/build/static/js/runtime~main.9df7376b.js.map",
-    "static/css/2.24e9a224.chunk.css": "/build/static/css/2.24e9a224.chunk.css",
-    "static/js/2.be9fdb01.chunk.js": "/build/static/js/2.be9fdb01.chunk.js",
-    "static/js/2.be9fdb01.chunk.js.map": "/build/static/js/2.be9fdb01.chunk.js.map",
-    "index.html": "/build/index.html",
-    "precache-manifest.ecf8e97cc48bd2928620cd0ee063c9b0.js": "/build/precache-manifest.ecf8e97cc48bd2928620cd0ee063c9b0.js",
-    "service-worker.js": "/build/service-worker.js",
-    "static/css/2.24e9a224.chunk.css.map": "/build/static/css/2.24e9a224.chunk.css.map",
-    "static/css/main.990df040.chunk.css.map": "/build/static/css/main.990df040.chunk.css.map",
-    "static/media/index.css": "/build/static/media/img2.175d73e2.png",
-    "static/media/research-image.jpg": "/build/static/media/research-image.a6fd3481.jpg",
-    "static/media/ta-img.jpg": "/build/static/media/ta-img.ba2631c3.jpg"
+    "main.css": "/devansh2001.githib.io/static/css/main.1472d12e.chunk.css",
+    "main.js": "/devansh2001.githib.io/static/js/main.e646ea54.chunk.js",
+    "main.js.map": "/devansh2001.githib.io/static/js/main.e646ea54.chunk.js.map",
+    "runtime~main.js": "/devansh2001.githib.io/static/js/runtime~main.f295549a.js",
+    "runtime~main.js.map": "/devansh2001.githib.io/static/js/runtime~main.f295549a.js.map",
+    "static/css/2.24e9a224.chunk.css": "/devansh2001.githib.io/static/css/2.24e9a224.chunk.css",
+    "static/js/2.be9fdb01.chunk.js": "/devansh2001.githib.io/static/js/2.be9fdb01.chunk.js",
+    "static/js/2.be9fdb01.chunk.js.map": "/devansh2001.githib.io/static/js/2.be9fdb01.chunk.js.map",
+    "index.html": "/devansh2001.githib.io/index.html",
+    "precache-manifest.64dfa5f59de6e7083a77331fc61a4953.js": "/devansh2001.githib.io/precache-manifest.64dfa5f59de6e7083a77331fc61a4953.js",
+    "service-worker.js": "/devansh2001.githib.io/service-worker.js",
+    "static/css/2.24e9a224.chunk.css.map": "/devansh2001.githib.io/static/css/2.24e9a224.chunk.css.map",
+    "static/css/main.1472d12e.chunk.css.map": "/devansh2001.githib.io/static/css/main.1472d12e.chunk.css.map",
+    "static/media/index.css": "/devansh2001.githib.io/static/media/img2.175d73e2.png",
+    "static/media/research-image.jpg": "/devansh2001.githib.io/static/media/research-image.a6fd3481.jpg",
+    "static/media/ta-img.jpg": "/devansh2001.githib.io/static/media/ta-img.ba2631c3.jpg"
   }
 }

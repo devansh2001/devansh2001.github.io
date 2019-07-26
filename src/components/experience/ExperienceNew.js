@@ -83,7 +83,7 @@ class ExperienceNew extends Component {
                     <h3>Kuwait Oil Company</h3>
                     <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
                     <br/>
-                    <Image src = {require('../../image.jpg')} fluid />
+                    <Image src = {require('../../koc.png')} fluid />
                     <br/>
                     <p/>
                         As an information technology intern, I worked on IT support teams.

@@ -76,7 +76,7 @@ class ExperienceNew extends Component {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="June 2017 - July 2017"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#ffff' }}
                     icon = {<WorkIcon/>}
                 >
                     <h3 className="vertical-timeline-element-title">Information Technology Intern</h3>

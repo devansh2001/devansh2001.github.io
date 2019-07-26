@@ -22,7 +22,7 @@ class ExperienceNew extends Component {
                     <h3>NCR Corporation</h3>
                     <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
                     <br/>
-                    <Image src = {require('../../image.jpg')} fluid />
+                    <Image src = {require('../../ncr-intern.jpg')} fluid />
                     <br/>
                     <p/>
                         As a software engineering intern on the Cloud Platform team, my team and I

@@ -81,17 +81,15 @@ class ExperienceNew extends Component {
                 >
                     <h3 className="vertical-timeline-element-title">Information Technology Intern</h3>
                     <h3>Kuwait Oil Company</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
+                    <h4 className="vertical-timeline-element-subtitle">Ahmadi, Kuwait</h4>
                     <br/>
                     <Image src = {require('../../koc.png')} fluid />
                     <br/>
                     <p/>
-                        As an information technology intern, I worked on IT support teams.
-                        Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                        exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                        nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                        reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                        est.
+                        As an information technology intern, I worked on support teams for KOC. Our team of interns would work with
+                        hardware fixes along with full-time staff. Over the course of the internship, we took apart whole CPUs, monitors,
+                        printers, scanners, laptops, and put them back together (and they worked!) with the help of our mentors. This
+                        process furthered my interest in technology and I saw the layers of abstraction that these devices have.
                 </VerticalTimelineElement>
             </VerticalTimeline>
             </div>
